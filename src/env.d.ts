@@ -1,2 +1,2 @@
 /// <reference types="astro/client" />
-declare module 'filereader-stream'
+declare module "filereader-stream";

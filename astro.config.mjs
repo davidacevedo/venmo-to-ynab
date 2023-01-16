@@ -1,13 +1,11 @@
-import { defineConfig } from 'astro/config';
-import { nodePolyfills } from 'vite-plugin-node-polyfills';
+import { defineConfig } from "astro/config";
+import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://davidacevedo.github.io/venmo-to-ynab',
-  base: '/venmo-to-ynab',
+  site: "https://davidacevedo.github.io/venmo-to-ynab",
+  base: "/venmo-to-ynab",
   vite: {
-    plugins: [
-      nodePolyfills({})
-    ]
-  }
+    plugins: [nodePolyfills({})],
+  },
 });
